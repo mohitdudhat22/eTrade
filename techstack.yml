@@ -1,0 +1,483 @@
+repo_name: mohitdudhat22/eTrade
+report_id: f2612d176c86d636854800c1ab47e358
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-30T09:46:06+00:00'
+requested_by: mohitdudhat22
+provider: github
+branch: main
+detected_tools_count: 35
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: Mongoose
+  description: MongoDB object modeling designed to work in an asynchronous environment
+  website_url: http://mongoosejs.com/
+  version: 7.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Document Mapper (ODM)
+  image_url: https://img.stackshare.io/service/1231/0TXzZU7W_400x400.jpg
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: nodemon
+  description: A simple monitor script for use during development of a node.js app
+  website_url: http://nodemon.io/
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: node.js Application Monitoring
+  image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: Modernizr
+  description: Respond to your user’s browser features
+  website_url: https://modernizr.com/
+  version: 3.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2440/9TeXWBzR_400x400.jpg
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.21.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/backend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 13.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: bcrypt
+  description: A bcrypt library for NodeJS
+  package_url: https://www.npmjs.com/bcrypt
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16526/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 8.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: cors
+  description: Node.js CORS middleware
+  package_url: https://www.npmjs.com/cors
+  version: 2.8.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16165/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-12-28 08:33:23.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: express-validator
+  description: Express middleware for the validator module
+  package_url: https://www.npmjs.com/express-validator
+  version: 7.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17906/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: js-cookie
+  description: A simple, lightweight JavaScript API for handling cookies
+  package_url: https://www.npmjs.com/js-cookie
+  version: 3.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16441/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: jsonwebtoken
+  description: JSON Web Token implementation
+  package_url: https://www.npmjs.com/jsonwebtoken
+  version: 9.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16155/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/backend/package-lock.json
+  detection_source: backend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-12-27 11:04:49.000000000 Z
+- name: popper.js
+  description: A kickass library to manage your poppers
+  package_url: https://www.npmjs.com/popper.js
+  version: 1.16.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16357/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: react-helmet
+  description: A document head manager for React
+  package_url: https://www.npmjs.com/react-helmet
+  version: 6.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 8.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: react-slick
+  description: React port of slick carousel
+  package_url: https://www.npmjs.com/react-slick
+  version: 0.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17365/default_c11ea7d401c11f11d89301d0302509ab7d72e5ac.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
+- name: slick-carousel
+  description: The last carousel you'll ever need
+  package_url: https://www.npmjs.com/slick-carousel
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17737/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/mohitdudhat22/eTrade/blob/main/frontend/package-lock.json
+  detection_source: frontend/package.json
+  last_updated_by: mohitdudhat22
+  last_updated_on: 2023-11-20 14:57:52.000000000 Z
